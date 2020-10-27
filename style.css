@@ -1,9 +1,8 @@
 /* Buttons */
 .button {
     display: block;
-    padding: .1px;
+    padding: .8rem 1.2rem;
     border-radius: 10px;
-    
 }
     
 .button--black {
