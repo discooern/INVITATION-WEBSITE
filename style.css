@@ -39,7 +39,7 @@
   background-color: #3e8e41;
 }
 */
-.button {
+.button , .button69{
     display: block;
     padding: .8rem 1.2rem;
     border-radius: 10px;
@@ -200,7 +200,7 @@ h2 {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.select1, .div, .button, .nav1text, .nav2text, .footer, .section{
+.select1, .div, .button, .nav1text, .nav2text, .footer, .section, .button69{
     font-family: 'Poppins', sans-serif;
 }
 #move1 {animation-timing-function: linear;}
