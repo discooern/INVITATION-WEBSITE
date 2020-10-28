@@ -3,6 +3,11 @@
     display: block;
     padding: .8rem 1.2rem;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: grey;
 }
 
 .button--black {
@@ -11,12 +16,16 @@
 }
 
 .button--gradient {
-    text-decoration: none;
     padding-top: 0px;
     margin-left: 1rem;
     color: white;
     background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
 }
+
+.button--gradient:hover {
+    background-image: linear-gradient(to left, orange, Purple);
+}
+
 
 .login{
     margin-right: 0rem;
@@ -278,7 +287,7 @@ h2 {
   border-radius: 6px;
   transition-duration: 0.4s;
   color: white;
-  background-image: linear-gradient(to right, orange, Purple);
+    background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
   }
 .start:hover{
   background-image: linear-gradient(to left, orange, Purple);
