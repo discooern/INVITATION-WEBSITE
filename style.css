@@ -43,6 +43,11 @@
     display: block;
     padding: .8rem 1.2rem;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: grey;
 }
 
 .button--black {
@@ -51,12 +56,16 @@
 }
 
 .button--gradient {
-    text-decoration: none;
     padding-top: 0px;
     margin-left: 1rem;
     color: white;
     background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
 }
+
+.button--gradient:hover {
+    background-image: linear-gradient(to left, orange, Purple);
+}
+
 
 .login{
     margin-right: 0rem;
@@ -113,7 +122,7 @@ header > nav > .ul2 > li{
 
 .referal_section, .image{
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: #0A0A0A;
     width: 100%;
     }
 
@@ -153,11 +162,12 @@ h2 {
     margin-left: 50px;
     height: 250px;
 }
-#hey5{
-    font-size: 50px;
+.hey5{
+    font-size: 48px;
 }
 .section{
     margin-top: -50px;
+    font-size: 19px;
 }
 
 .thing{
@@ -202,7 +212,7 @@ body {background-color: red;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.select1, .div, .button, .nav1text, .nav2text{
+.select1, .div, .button, .nav1text, .nav2text, .footer, .section{
     font-family: 'Poppins', sans-serif;
 }
 #move1 {animation-timing-function: linear;}
@@ -236,8 +246,9 @@ body {background-color: red;
 }
 .nav1{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background-color: black;
+    background-color: #0A0A0A;
     margin-top: 16rem;
 
 }
@@ -259,11 +270,12 @@ body {background-color: red;
     margin-top: -60px;
     margin-bottom: -80px;
     margin-right: 100px;
+
 }
 .navdiv1{
    padding: 75px;
    margin-top: -50px;
-   width: 500px;
+   width: 420px;
 }
 .navdiv2{
  display:flex;
@@ -300,7 +312,7 @@ body {background-color: red;
 
 .logo {
      display: flex;
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
      margin: 7rem;
      justify-content: center;
      align-items: center;
@@ -341,7 +353,7 @@ body {background-color: red;
   border-radius: 6px;
   transition-duration: 0.4s;
   color: white;
-  background-image: linear-gradient(to right, orange, Purple);
+    background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
   }
 .start:hover{
   background-image: linear-gradient(to left, orange, Purple);
