@@ -1,8 +1,53 @@
-/* Buttons */
+/*
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+*/
 .button {
     display: block;
     padding: .8rem 1.2rem;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: grey;
 }
 
 .button--black {
@@ -11,18 +56,22 @@
 }
 
 .button--gradient {
-    text-decoration: none;
     padding-top: 0px;
     margin-left: 1rem;
     color: white;
     background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
 }
 
+.button--gradient:hover {
+    background-image: linear-gradient(to left, orange, Purple);
+}
+
+
 .login{
     margin-right: 0rem;
     margin-left: -5rem;
 }
-/* 
+/*
 * Header med nav
 */
 header > nav {
@@ -143,6 +192,7 @@ h2 {
     height: 25px;
     width: 25px;
 }
+
 .div{
     background-color: white;
     height: 45px;
@@ -152,6 +202,16 @@ h2 {
 }
 .select1, .div, .button, .nav1text, .nav2text, .footer, .section{
     font-family: 'Poppins', sans-serif;
+}
+#move1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
 }
 .div2{
     margin-top: 12px;
@@ -178,7 +238,7 @@ h2 {
     justify-content: space-between;
     background-color: #0A0A0A;
     margin-top: 16rem;
-    
+
 }
 .navbutton1{
     display:flex;
@@ -216,7 +276,6 @@ h2 {
 .icon2{
     color: red;
 }
-
 .logo > img{
     width: 180px;
 }
@@ -237,6 +296,7 @@ h2 {
 
 .get_cash_rewards h2 {
   color: black;
+  font-size: 3.8rem;
 }
 .get_cash_rewards {
   display: flex;
@@ -244,6 +304,7 @@ h2 {
   max-width: 1640px;
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Poppins', sans-serif;
 }
 .get_cash_rewards ul {
   margin-right: 2rem;
@@ -262,7 +323,7 @@ h2 {
   border-radius: 6px;
   transition-duration: 0.4s;
   color: white;
-  background-image: linear-gradient(to right, orange, Purple);
+    background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
   }
 .start:hover{
   background-image: linear-gradient(to left, orange, Purple);
