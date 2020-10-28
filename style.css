@@ -4,7 +4,7 @@
     padding: .8rem 1.2rem;
     border-radius: 10px;
 }
-    
+
 .button--black {
    background-color: black;
    color: white;
@@ -19,8 +19,8 @@
 }
 
 .login{
-    margin-right: 2rem;
-    margin-left: -rem;
+    margin-right: 0rem;
+    margin-left: -5rem;
 }
 /* 
 * Header med nav
@@ -33,7 +33,7 @@ header > nav {
 header > nav > ul{
     display: flex;
     flex-direction: row;
-    list-style-type: none;  
+    list-style-type: none;
     padding-left: 0;
 }
 
@@ -54,7 +54,7 @@ header > nav > ul > li > a{
     /* Don't repeat yourself DRY */
     color: hsl(0, 0%, 0%);
     padding: 20px 10px;
-    
+
 }
 header > nav > .ul2 > li{
     text-align: center;
@@ -92,7 +92,7 @@ h2 {
     font-weight: 100;
 }
 .flexsection{
-     display:flex; 
+     display:flex;
 }
 .image2{
     margin-top: -15px;
@@ -136,7 +136,7 @@ h2 {
     font-size: 15px;
 }
 .image3{
-    
+
     margin-left: 16px;
     margin-top: 10px;
     height: 25px;
@@ -157,6 +157,7 @@ h2 {
     font-size: 15px;
     border-bottom-left-radius: 8px;
 }
+
 .nav1text, .nav2text{
     color: white;
 }
@@ -174,6 +175,7 @@ h2 {
     display:flex;
     justify-content: space-between;
     background-color: black;
+    margin-top: 16rem;
     
 }
 .navbutton1{
@@ -227,5 +229,77 @@ h2 {
     position: relative;
     padding-left: 1.5em;
     padding-bottom: 0.2em;
+}
+
+.logo > img{
+    width: 180px;
+}
+
+.logo {
+     display: flex;
+     flex-wrap: nowrap;
+     margin: 7rem;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin-left: -1rem;
+ }
+
+ .logo img {
+     margin: 2rem;
+ }
+
+.get_cash_rewards h2 {
+  color: black;
+}
+.get_cash_rewards {
+  display: flex;
+  margin-top: 8rem;
+  max-width: 1640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.get_cash_rewards ul {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.get_cash_rewards img {
+  align-items: flex-start;
+}
+
+.start {
+  align-self: center;
+  text-align: center;
+  padding: 1rem;
+  border-width: 0px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  color: white;
+  background-image: linear-gradient(to right, orange, Purple);
+  }
+.start:hover{
+  background-image: linear-gradient(to left, orange, Purple);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.start:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+.ul3 {
+list-style: none;
+}
+.ul3 li::before {
+  background-image: linear-gradient(to right, orange, Purple);
+  padding: 2px;
+  border-width: 0px;
+  border-radius: 6px;
+  content: '✓';
+  color: white;
 }
 
