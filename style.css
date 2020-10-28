@@ -173,6 +173,7 @@ h2 {
 }
 .nav1{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: black;
     margin-top: 16rem;
@@ -196,11 +197,12 @@ h2 {
     margin-top: -60px;
     margin-bottom: -80px;
     margin-right: 100px;
+
 }
 .navdiv1{
    padding: 75px;
    margin-top: -50px;
-   width: 500px;
+   width: 420px;
 }
 .navdiv2{
  display:flex;
@@ -237,7 +239,7 @@ h2 {
 
 .logo {
      display: flex;
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
      margin: 7rem;
      justify-content: center;
      align-items: center;
