@@ -149,7 +149,7 @@ h2 {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.select1, .div, .button, .nav1text, .nav2text{
+.select1, .div, .button, .nav1text, .nav2text, .footer{
     font-family: 'Poppins', sans-serif;
 }
 .div2{
@@ -313,4 +313,8 @@ list-style: none;
     border-radius: 20px;
     
 }
-
+.footer{
+    text-align: center;
+    margin-top: 2.5rem;
+    color: #3D3D3D;
+}
