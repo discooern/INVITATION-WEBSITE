@@ -216,23 +216,6 @@ h2 {
 .icon2{
     color: red;
 }
-.li1:before{
-     content:'';
-     position: absolute;
-     left: 0;
-     background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>") no-repeat;
-     
-     width: 1em;
-     height: 1em;
-     color: black;
-     background-color: white;
-     border-radius: 20px;
-}
-.li1{
-    position: relative;
-    padding-left: 1.5em;
-    padding-bottom: 0.2em;
-}
 
 .logo > img{
     width: 180px;
@@ -294,25 +277,31 @@ h2 {
   box-shadow: 0 5px #666;
   transform: translateY(5px);
 }
-.ul3 {
+.ul3 , .nav2text {
 list-style: none;
 }
-.ul3 li{
+.li1{
     position: relative;
     padding-left: 1.5em;
     padding-bottom: 0.2em;
 }
-.ul3 li::before {
-  
-    content:url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' fill='white' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>");
+.li1:before {
     position: absolute;
-    left: 0;
-    padding: 1px;
-    background-image: linear-gradient(to right, orange, Purple);
+    left: 0;    
+    border-radius: 20px;  
     width: 1.2em;
     height: 1.2em;
-    border-radius: 20px;
-    
+}
+
+.ul3 .li1:before{
+    content:url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' fill='white' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>");
+    padding: 1px;
+    background-image: linear-gradient(to right, orange, Purple);
+}
+.li1:before{
+    content:url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' fill='black' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>");
+    padding-left: 2px;
+    background-color: white;
 }
 .footer{
     text-align: center;
