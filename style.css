@@ -148,6 +148,17 @@ h2 {
     border-bottom-left-radius: 8px;
 }
 
+.logo {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 7rem;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .logo img {
+     margin: 2rem;
+ }
 
 .get_cash_rewards h2 {
   color: black;
