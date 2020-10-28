@@ -11,10 +11,17 @@
 }
 
 .button--gradient {
-    
+    text-decoration: none;
+    padding-top: 0px;
+    margin-left: 1rem;
+    color: white;
     background: linear-gradient(90deg, rgba(251,123,48,1) 0%, rgba(168,49,165,1) 100%);
 }
 
+.login{
+    margin-right: 2rem;
+    margin-left: -rem;
+}
 /* 
 * Header med nav
 */
@@ -109,6 +116,9 @@ h2 {
 #hey5{
     font-size: 50px;
 }
+.section{
+    margin-top: -50px;
+}
 
 .thing{
     width: 650px;
@@ -139,10 +149,83 @@ h2 {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.select1, .div, .button{
+.select1, .div, .button, .nav1text, .nav2text{
     font-family: 'Poppins', sans-serif;
 }
 .div2{
     margin-top: 12px;
     font-size: 15px;
     border-bottom-left-radius: 8px;
+}
+.nav1text, .nav2text{
+    color: white;
+}
+.nav1text{
+    font-size:40px;
+    font-weight: bold;
+    width: 600px;
+}
+.nav2text{
+    font-size: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+.nav1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.navbutton1{
+    display:flex;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    font-weight: bold
+}
+.navbutton2{
+    width: 140px;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+.navimage1{
+    margin-top: -60px;
+    margin-bottom: -80px;
+    margin-right: 100px;
+}
+.navdiv1{
+   padding: 75px;
+   margin-top: -50px;
+   width: 500px;
+}
+.navdiv2{
+ display:flex;
+ height: 50px;
+}
+.icon{
+    height: 25px;
+    margin-right: 4px;
+}
+.icon2{
+    color: red;
+}
+.li1:before{
+     content:'';
+     position: absolute;
+     left: 0;
+     background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>") no-repeat;
+     
+     width: 1em;
+     height: 1em;
+     color: black;
+     background-color: white;
+     border-radius: 20px;
+}
+.li1{
+    position: relative;
+    padding-left: 1.5em;
+    padding-bottom: 0.2em;
+}
+
